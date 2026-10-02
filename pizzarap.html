@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PizzaRap · Repertorio Leyendas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/logoFG.ico">
+</head>
+<body class="section pizzarap-page">
+  <div class="abstract-bg dim" aria-hidden="true"><span class="blob b1"></span><span class="blob b3"></span></div>
+  <header class="topbar">
+    <a class="brand" href="index.html">Repertorio Leyendas</a>
+    <nav class="tabs">
+      <a class="tab tab-gold" href="clips-random.html">Clips Random</a>
+      <a class="tab tab-blue active" href="pizzarap.html">PizzaRap</a>
+      <a class="tab tab-green" href="extras.html">Extras</a>
+    </nav>
+  </header>
+  <main class="page">
+    <h2 class="page-title">PizzaRap</h2>
+    <!-- Las tarjetas se generan desde js/pizzarap.js -->
+    <section class="grid grid-pizzarap" id="pizzarap-grid"></section>
+  </main>
+
+  <script src="js/pizzarap.js"></script>
+</body>
+</html>

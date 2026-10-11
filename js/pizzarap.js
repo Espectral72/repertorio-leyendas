@@ -40,8 +40,10 @@ const pizzarap = [
   },
   {
     title: "EXPLOTAdO",
+    id: "CJFqvuglY-M",
     thumb: "img/pizzarap/explotado.png",
-    status: "proximamente"
+    status: "ok",
+    glow: "#57733c"
   }
 ];
 

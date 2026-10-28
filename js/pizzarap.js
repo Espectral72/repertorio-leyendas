@@ -14,15 +14,19 @@ const pizzarap = [
     // Tercio superior #a3b495, rayas #d7ab5e/#7d0f2a en el tercio medio, tercio inferior #45557d
     glow: "linear-gradient(180deg, #a3b495 0%, #a3b495 30%, #d7ab5e 38%, #7d0f2a 46%, #d7ab5e 54%, #45557d 66%, #45557d 100%)"
   },
-  {
+    {
     title: "Se cansó del discord",
+    id: "85_J61XYa5o",
     thumb: "img/pizzarap/se-canso-del-discord.png",
-    status: "no-disponible"
+    status: "ok",
+    glow: "#9c1011"
   },
   {
     title: "Inofrente",
+    id: "JLDZseLB_5I",
     thumb: "img/pizzarap/inofrente.png",
-    status: "no-disponible"
+    status: "ok",
+    glow: "#ecae5b"
   },
   {
     title: "Pablo Dembow",
